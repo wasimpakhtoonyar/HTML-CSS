@@ -1,0 +1,99 @@
+/* Media query */
+body{
+	font-size: 25px;
+}
+@media screen and  (min-width: 750px)  {
+	body{
+		font-size: 18px;
+	}
+}
+@media screen and  (min-width: 1000px)  {
+	body{
+		background-color: purple;
+	}
+}
+
+.title-container{
+	margin-bottom: 20px;
+	overflow: auto;
+}
+.text-center{
+	text-align: center;
+}
+.container{
+	background-color: lightgrey;
+	padding: 40px;
+}
+
+/* Media query */
+@media screen and  (min-width: 500px)  {
+	.container{
+		padding: 10px;
+	}
+}
+@media screen and  (min-width: 768px)  {
+	.container{
+		margin: 40px;
+	}
+}
+.list-container{
+	margin-bottom: 20px;
+	overflow: auto;
+}
+.list-container li{
+	margin-bottom: 2px;
+}
+/* Media query */
+@media screen and (min-width: 500px)  {
+	.list-container li{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 768px)  {
+	.list-container li{
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	.list-container{
+		float: left;
+	    width: calc(50% - 80px);
+	    box-sizing: border-box;
+	}
+
+}
+.text-container{
+	overflow: auto;
+}
+@media screen and (min-width: 768px)  {
+.text-container{
+	float: left;
+}	
+}
+.text-container span{
+	color: red;
+}
+
+.second-list{
+	border: solid 1px black;
+}
+.second-list li{
+	color: blue;
+}
+.second-list a{
+	font-size: 2em;
+}
+#third-element{
+	color: black;
+}
+
+.list-container li:nth-child(2) {
+    background: lightblue;
+}
+
+
+
+/*
+	Media queries
+*/
+
