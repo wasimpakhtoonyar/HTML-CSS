@@ -4,8 +4,8 @@
  - [ ] Student presentations
  - [ ] Last week recap and questions
  - [ ] Responsive web development
-    - [ ] Relative measurements (%, (r)em, vw)
     - [ ] Media queries
+    - [ ] Relative measurements (%, (r)em, vw)
     - [ ] Positioning (absolute, relative, fixed)
     - [ ] Floating and clearing
     - [ ] Flexbox
